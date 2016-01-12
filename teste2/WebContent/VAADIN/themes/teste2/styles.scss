@@ -1,0 +1,13 @@
+@import "addons.scss";
+@import "teste2.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in teste2.scss */
+.teste2 {
+  @include addons;
+  @include teste2;
+}
+
+.mybarmenu .v-menubar-menuitem-highlight {
+    background: #000040; /* Dark blue */
+}
